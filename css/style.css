@@ -1,0 +1,56 @@
+nav{
+width: 960px;
+margin:auto;
+}
+
+header img{
+float: left;
+margin-top: 15px;
+
+}
+
+header ul{
+display: flex;
+justify-content:space-around;
+align-items: flex-end;
+
+}
+header ul li {
+margin-top: 40px;
+
+}
+a {
+text-decoration: none;
+color:rgb(49, 156, 250)
+
+}
+main {
+width: 960px;
+margin: auto;
+  
+}
+
+main ul {
+display: flex;
+justify-content: space-between;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+section{
+  display: flex;
+}
+
+/*scrollable container*/
+p {
+  height: 200px;
+  overflow: auto;
+}
+
+button {
+  transition: 250ms;
+}
+
+button:hover{
+  background-color: rgb(0, 90, 12);
+}

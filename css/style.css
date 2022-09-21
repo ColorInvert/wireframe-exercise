@@ -1,0 +1,103 @@
+header {
+  justify-content: center;
+  height: 100px;
+  margin-bottom: 30px;
+  font-family: sans-serif;
+  font-size: large;
+  font-weight: 600;
+  background-color: rgb(41, 41, 41);
+
+}
+
+nav {
+  width: 960px;
+  margin: auto;
+
+}
+
+header img {
+  float: left;
+  margin-top: 15px;
+
+}
+
+header ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+
+}
+
+header ul li {
+  margin-top: 40px;
+
+}
+
+a {
+  text-decoration: none;
+  color: rgb(167, 167, 167)
+
+}
+
+main {
+  width: 960px;
+  margin: auto;
+
+}
+
+main ul {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+h2 {
+  font-family: sans-serif;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  font-size: large;
+  font-weight: 600;
+
+}
+
+section {
+  display: flex;
+  font-family: sans-serif;
+  margin-bottom: 30px;
+  image-resolution: 480px, 400px;
+
+}
+
+/*scrollable container*/
+p {
+  height: 300px;
+  overflow: auto;
+  font-weight: 500;
+  margin-left: 30px;
+
+}
+
+button {
+  transition: 350ms;
+  border-radius: 15px;
+  margin-left: 30px;
+  margin-top: 30px;
+  padding: 15px 80px;
+  display: inline-block;
+  font-size: large;
+  font-weight: 600;
+
+}
+
+button:hover {
+  background-color: rgb(95, 255, 116);
+
+}
+
+footer {
+  background-color: rgb(124, 124, 124);
+  height: 180px;
+  
+}
